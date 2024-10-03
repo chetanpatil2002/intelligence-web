@@ -1,0 +1,196 @@
+@media (min-width:768px) {
+
+  
+
+    .container .navbar .nav {
+        display: none;
+    }
+
+    .container .navbar .social .soci .togglebar {
+        display: block;
+    }
+    .container .navbar .logo .flex span {
+        font-size: 30px;
+    }
+    .container .navbar .navigation {
+        display: block;
+    }
+    /* ======================== banner ============= */
+
+    .banner {
+        height: 60vh;
+    }
+
+    .banner .content {
+        padding: 50px 20px;
+        padding-left: 180px;
+    }
+
+    .banner .content .head h1, 
+    .banner .content .set h1 {
+        font-size: 40px; 
+    }
+
+    .banner .content .head h6 {
+        font-size: 14px;
+    }
+
+    .banner .content .btn {
+        flex-direction: column; 
+    }
+
+    .banner .content .discover, 
+    .banner .content .get {
+        width: 20%; 
+        margin: 5px 0;
+    }
+    
+ /* ====================== About us ==============  */
+
+ .about-us {
+    padding-top: 50px;
+} 
+
+.about-us .about-f {
+    flex-direction: column;
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .about-f .about img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.about-us .about-f .aboutwrt h5 {
+    font-size: 18px;
+    padding-top: 0;
+    text-align: center;
+}
+.about-us .about-f .aboutwrt h1 {
+    font-size: 23px;
+    text-align: center;
+    padding-top: px;
+}
+.about-us .about-f .aboutwrt p {
+    font-size: 17px;
+    padding-top: 20px;
+    line-height: 28px;
+}
+.about-us .about-f .aboutwrt h4 {
+    padding-top: 20px;
+    font-size: 19px;
+}
+.about-us .about-f .aboutwrt button {
+  
+    margin-top: 20px;
+} 
+ 
+/* ======================= choose ======================  */
+.choose .creative .grid {
+    padding-top: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    grid-template-columns: auto auto;
+}
+
+.lap-img img {
+    height: 80%;
+    width: 100%;
+
+}
+/* ===================================== poeple think ========================== */
+
+.designer {
+    padding-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.designer .design h1 {
+    font-size: 30px;
+    padding-top: 5px;
+
+}
+.designer .design p {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.designer .design h2 {
+    padding-top: 20px;
+}
+/* ======================== Card =======================  */
+.card-container {
+    flex-direction: column;
+}
+
+.card{
+    width: 100%; 
+
+}
+.card-content h2 {
+    font-size: 22px;
+}
+/* =================== fresh ideas ====================  */
+.f-ideas {
+    height: 20vh;
+}
+.f-ideas .f-flex {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-ideas .y-success em {
+    font-size: 22px;
+
+}
+
+.f-ideas .y-success h3 {
+    font-size: 35px;
+}
+
+/* ================== footer contact =============  */
+.contact {
+    height: 100%;
+}
+.contact .address {
+    flex-direction: row;
+}
+.contact .address .subscribe button {
+    height: 60px;
+    width: 200px;
+}
+.contact .address .quick {
+    padding-bottom: 320px;
+}
+
+.contact .address .explore  {
+    padding-bottom:320px;
+}
+.contact .address .subscribe {
+    padding-bottom: 100px;
+}
+.contact .address .quick h3 ,.contact .address .explore h3,
+.contact .address .subscribe h3{
+    font-size: 18px;
+}
+.contact .address .subscribe h3{
+    text-align: center;
+}
+.contact .address .subscribe span {
+    padding-top: 30px;   
+}
+.contact .address .subscribe p{
+   font-size: 15px;
+   padding-top: 30px;
+   
+
+}
+
+
+}

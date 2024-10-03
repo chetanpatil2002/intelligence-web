@@ -1,0 +1,170 @@
+@media (min-width:1400px) {
+
+   
+
+    .container .navbar .nav {
+        display: block;
+    }
+
+    .container .navbar .social .soci .togglebar {
+        display: none;
+    }
+    .container .navbar .logo .flex span {
+        font-size: 30px;
+    }
+
+    /* ======================= banner ================= */
+   
+    .banner {
+        height: 100vh;
+    }
+
+.banner .content {
+   
+    padding: 150px 20px;
+    padding-left: 450px;
+
+
+}
+.banner .content .head h6 {
+    font-size: 20px;
+    padding-top: 75px;
+  
+}
+  
+.banner .content .head h1 {
+    font-size: 90px;
+}
+
+.banner .content .set h1 {
+    font-size: 90px;
+    margin-top: -35px;
+    padding-left: 10px;
+}
+/* ================== Success =================  */
+
+.success .success-f {
+    flex-direction: row;
+}
+
+  /* ===================== choose ====================  */
+  .choose {
+    flex-direction: row;
+}
+
+.lap-img img {
+height: 80%;
+width: 100%;
+
+}   
+
+/* ========================= count ===================  */
+.bgimg .count {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.bgimg .count .number h1 {
+    font-size: 37px;
+    color: white;
+}
+.bgimg .count .number p {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+/* ================== people think ================= */
+.designer {
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.designer .design h1 {
+    font-size: 30px;
+    padding-top: 5px;
+
+}
+.designer .design p {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.designer .design h2 {
+    padding-top: 20px;
+}
+.designer .luky {
+    margin-top: 120px;
+}
+/* ======================== Card =======================  */
+.card-container {
+    flex-direction: row;
+}
+
+.card{
+    width: 100%; 
+
+}
+.card-content h2 {
+    font-size: 22px;
+}
+/* ===================== fresh ideas ==============  */
+.f-ideas {
+    height: 40vh;
+}
+.f-ideas .f-flex {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-ideas .y-success em {
+    font-size: 25px;
+
+}
+
+.f-ideas .y-success h3 {
+    font-size: 40px;
+}
+
+/* ================== footer contact =============  */
+.contact {
+    height: 100%;
+}
+.contact .address {
+    flex-direction: row;
+}
+.contact .address .subscribe button {
+    height: 60px;
+    width: 200px;
+}
+.contact .address .quick {
+    padding-bottom: 160px;
+}
+
+.contact .address .explore  {
+    padding-bottom: 160px;
+}
+.contact .address .subscribe {
+    padding-bottom: 50px;
+}
+.contact .address .quick h3 ,.contact .address .explore h3,
+.contact .address .subscribe h3{
+    font-size: 18px;
+}
+.contact .address .subscribe h3{
+    text-align: center;
+}
+.contact .address .subscribe span {
+    padding-top: 30px;   
+}
+.contact .address .subscribe p{
+   padding-top: 60px;
+
+   
+
+}
+
+}

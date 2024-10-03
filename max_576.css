@@ -1,0 +1,307 @@
+ @media (max-width:576px) {
+
+    .margin {
+        margin: 0px 10px;
+    }
+    
+    .container .navbar .nav {
+        display: none;
+    }
+
+ 
+.container .navbar .social .soci .togglebar {
+    display: block;
+}
+.container .navbar .social .soci {
+  
+    justify-content: flex-end;
+}
+.container .navbar .logo .flex span {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.container .navbar .logo .flex h1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.763);
+}
+.container .navbar .social .soci .togglebar button {
+    height: 30px;
+    width: 30px;    
+}
+.container .navbar .navigation {
+    display: block;
+    width: 84%;
+}
+
+
+
+/* ================================= banner ============================= */
+.banner {
+    width:100% ;
+    height:70vh;
+}
+
+ .banner .content {
+    width: 100%;
+    margin: 10px;
+     width: 100%;
+    padding: 50px 20px;
+    padding-left: 20px;
+}
+
+.banner .content .head {
+    display: block;
+    
+} 
+
+.banner .content .head h6 {
+    font-size: 15px;
+    padding-top: 50px;
+
+}
+.banner .content .head h1 {
+    font-size: 25px;
+}
+.banner .content .set h1 {
+    font-size: 30px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+
+.banner .content p {
+    padding-top: 7px;
+}
+.banner .content .discover {
+    height: 30px;
+    width: 120px;
+    font-size: 13px;
+} 
+.banner .content .get {
+    height: 30px;
+    width: 120px;
+    font-size: 13px;
+}
+.banner .content .btn {
+    padding-top: 30px;
+    display: flex;
+
+ } 
+ 
+ /* ====================== About us ==============  */
+
+ .about-us {
+    padding-top: 50px;
+} 
+
+.about-us .about-f {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .about-f .about img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.about-us .about-f .aboutwrt h5 {
+    font-size: 14px;
+    padding-top: 0;
+    text-align: center;
+}
+.about-us .about-f .aboutwrt h1 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: px;
+}
+.about-us .about-f .aboutwrt p {
+    padding-top: 15px;
+    line-height: 25px;
+    color: grey;
+}
+.about-us .about-f .aboutwrt h4 {
+    padding-top: 17px;
+    font-size: 14px;
+}
+.about-us .about-f .aboutwrt button {
+  
+    margin-top: 20px;
+} 
+
+/* ======================= success =======================  */
+.success .success-f {
+    flex-direction: column;
+}
+.success .success-f .history ,
+.success .success-f .mission,
+    .success .success-f .plan{
+    height: 100%;
+    width: 100%;
+}
+.success .center h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+/* ======================================= choose us ======================== */
+
+.choose {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.choose .creative .client h6 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.choose .creative .client h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.choose .creative .client p {
+    padding-top: 8px;
+    text-align: center;
+}
+
+
+.lap-img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.choose .creative .grid {
+    padding-top: 25px;
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    grid-template-columns: auto;
+}
+
+/* =============== count ===============  */
+.bgimg .count {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.bgimg .count {
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-items: center;
+    gap: 50px;
+}
+.bgimg .count .number h1 {
+    font-size: 30px;
+    color: white;
+}
+.bgimg .count .number p {
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+/* ===================================== poeple think ========================== */
+
+.designer {
+    padding-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.designer .design h1 {
+    font-size: 25px;
+    padding-top: 5px;
+
+}
+.designer .design p {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.designer .design h2 {
+    padding-top: 20px;
+}
+/* ================================== blog posts ============================= */
+ 
+
+.card-container {
+    flex-direction: column;
+}
+
+.card{
+    width: 100%; 
+
+}
+.card-content h2 {
+    font-size: 19px;
+}
+
+/* ===================== fresh ideas =================  */
+.f-ideas {
+    height: 60vh;
+}
+.f-ideas .f-flex {
+    flex-direction: column;
+    gap: 10px
+    ;
+}
+
+.f-ideas .y-success em {
+    font-size: 20px;
+
+}
+
+.f-ideas .y-success h3 {
+    font-size: 30px;
+}
+.f-ideas .btn button {
+   
+    margin-top: 15px;
+}
+
+/* ================== footer contact =============  */
+.contact {
+    height: 100%;
+}
+.contact .address {
+    flex-direction: column;
+}
+.contact .address .subscribe button {
+    height: 60px;
+    width: 200px;
+}
+.contact .address .quick {
+    padding-bottom: 60px;
+}
+
+.contact .address .explore  {
+    padding-bottom: 0px;
+}
+.contact .address .subscribe {
+    padding-bottom: 40px;
+}
+.contact .address .quick h3 ,.contact .address .explore h3,
+.contact .address .subscribe h3{
+    font-size: 18px;
+}
+.contact .address .subscribe h3{
+    text-align: center;
+}
+.contact .address .subscribe span {
+    padding-top: 30px;   
+}
+.contact .address .subscribe p{
+   font-size: 15px;
+   padding-top: 30px;
+   
+
+}
+
+
+ }   

@@ -1,0 +1,930 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    background-color: beige;
+    /* max-width: 1012; */
+}
+
+
+.margin {
+    margin: 0px 180px;
+}
+
+.padding {
+    padding: 20px ;
+}
+
+.container .navbar {
+    display: flex;
+}
+
+.container .navbar .logo {
+    flex: 1;
+}
+
+.container .navbar .logo .flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.container .navbar .logo .flex span {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.container .navbar .logo .flex h1 {
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.763);
+}
+
+
+.container .navbar .nav {
+    flex: 2;
+    position: relative;
+}
+
+.container .navbar .nav ul {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.container .navbar .nav ul li {
+    padding: 7px;
+}
+
+.container .navbar .nav ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.container .navbar .nav .showmenu {
+    position: relative;
+}
+
+.container .navbar .nav .innermenu {
+    position: absolute;
+    background-color: white;
+    display: none;
+    width: 100px;
+    color: blueviolet;
+    z-index: 3;
+}
+
+
+.container .navbar .nav .dropdown {
+    display: block;
+}
+
+.container .navbar .nav .innermenu a {
+    color: black;
+}
+
+/* .container .navbar .nav .showmenu:hover .innermenu {
+    display: block;
+} */
+
+.container .navbar .nav .innermenu li {
+    padding: 10px;
+}
+
+
+.container .nav ul li a:hover {
+    color: blueviolet;
+}
+
+.container .navbar .social {
+    flex: 1;
+}
+
+.container .navbar .social .soci {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 28px;
+}
+
+.container .navbar .social .soci span {
+    font-size: 17px;
+    margin-top: 18px;
+    color: black;
+
+}
+
+.container .navbar .social .soci .togglebar {
+    display: none;
+}
+
+.container .navbar .social .soci .togglebar button {
+    height: 35px;
+    width: 35px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+
+}
+.container .navbar .social .soci .togglebar button span{
+    color: white;
+    margin-top: 5px;
+}
+ 
+ /* ==================================== banner =============================  */
+
+ .container{
+    height: 100%;
+ }
+    .banner {
+    background: url("https://wp.w3layouts.com/intelligence/wp-content/themes/intelligence/assets/images/banner1.jpg") no-repeat center; 
+    width:100% ;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}  
+
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(127, 58, 192, 0.655);
+    z-index: -1;
+
+}
+
+.margin{
+    margin: 100px 100px;
+}
+
+.banner .content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 150px 20px;
+    padding-left: 450px;
+
+
+}
+
+.banner .content .head {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+
+}
+
+.banner .content .head h6 {
+    font-size: 20px;
+    padding-top: 75px;
+    color: white;   
+    text-shadow: 0px 0px 10px #00000059;
+}
+
+
+
+
+
+.banner .content .head h1 {
+    font-size: 90px;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.banner .content .set h1 {
+    font-size: 90px;
+    color: white;
+    margin-top: -40px;
+    padding-left: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.banner .content p {
+    padding-top: 10px;
+    color: white;    
+}
+
+.banner .content .btn {
+    padding-top: 34px;
+
+}
+
+.banner .content .discover {
+    background-color: rgb(5, 180, 113);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    height: 50px;
+    width: 180px;
+    font-size: 16px;
+}
+
+.banner .content .get {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 50px;
+    width: 180px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.banner .content .get:hover {
+    background-color: white;
+    color: black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+} 
+
+/* ==================================== about us ================================ */
+ .about-us {
+    padding-top: 100px;
+} 
+
+.about-us .about-f {
+    display: flex;
+    gap: 70px;
+}
+
+.about-us .about-f .about img {
+    height: 600px;
+    max-width: auto;
+}
+
+.about-us .about-f .aboutwrt h5 {
+    font-size: 18px;
+    padding-top: 30px;
+    color: grey;
+}
+
+.about-us .about-f .aboutwrt h1 {
+    font-size: 30px;
+    color: rgb(61, 60, 60);
+    padding-top: 10px;
+}
+
+.about-us .about-f .aboutwrt p {
+    padding-top: 30px;
+    line-height: 30px;
+    color: grey;
+}
+
+.about-us .about-f .aboutwrt h4 {
+    padding-top: 30px;
+    font-size: 19px;
+    color: rgb(70, 68, 68);
+}
+
+.about-us .about-f .aboutwrt button {
+    height: 50px;
+    width: 180px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(5, 180, 113);
+    border-radius: 5px;
+    margin-top: 40px;
+} 
+
+/* ======================================= success ===================================== */
+.success {
+    background-color: rgba(157, 140, 140, 0.078);
+/* background-color: black; */
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100%;
+}
+
+
+
+.success .center h1 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(43, 40, 40);
+
+}
+
+.success .success-f {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 50px;
+}
+
+.success .success-f .history {
+    border: 1px solid transparent;
+    height: 300px;
+    width: 380px;
+    padding: 40px;
+    background-color: white;
+
+}
+
+.success .success-f .history span {
+    font-size: 45px;
+    color: blueviolet;
+}
+
+.success .success-f .history h1 {
+    font-size: 25px;
+    padding-top: 25px;
+    color: rgb(38, 35, 35);
+}
+
+.success .success-f .history p {
+    color: grey;
+    padding-top: 15px;
+}
+
+
+.success .success-f .mission {
+    border: 1px solid transparent;
+    height: 300px;
+    width: 380px;
+    padding: 40px;
+    background-color: white;
+
+}
+
+.success .success-f .mission span {
+    font-size: 45px;
+    color: blueviolet;
+}
+
+.success .success-f .mission h1 {
+    font-size: 25px;
+    padding-top: 25px;
+    color: rgb(38, 35, 35);
+}
+
+
+
+.success .success-f .mission p {
+    color: grey;
+    padding-top: 15px;
+}
+
+.success .success-f .plan {
+    border: 1px solid transparent;
+    height: 300px;
+    width: 350px;
+    padding: 40px;
+    background-color: white;
+
+}
+
+.success .success-f .plan span {
+    font-size: 45px;
+    color: blueviolet;
+}
+
+.success .success-f .plan h1 {
+    font-size: 25px;
+    padding-top: 25px;
+    color: rgb(38, 35, 35);
+}
+
+.success .success-f .plan p {
+    color: grey;
+    padding-top: 15px;
+}
+
+.success .success-f h1:hover {
+    color: blueviolet;
+} 
+
+/* ======================================= choose us ======================== */
+.choose {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 60px;
+}
+
+.lap-img img {
+    height: 600px;
+    width: 500px;
+
+}
+
+.choose .creative .client h6 {
+    color: rgb(131, 121, 121);
+    font-size: 17px;
+    padding-top: 40px;
+}
+
+.choose .creative .client h1 {
+    color: rgb(71, 67, 67);
+    font-size: 35px;
+    padding-top: 12px;
+}
+
+.choose .creative .client p {
+    color: grey;
+    padding-top: 12px;
+}
+
+.choose .creative .grid {
+    padding-top: 55px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto;
+}
+
+.choose .creative .grid .service {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    gap: 15px;
+}
+
+.choose .creative .grid .service span {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.choose .creative .grid .onl h6 {
+    font-size: 18px;
+    color: rgb(91, 86, 86);
+
+}
+
+.choose .creative .grid .onl p {
+    color: rgb(97, 95, 95);
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.choose .creative .grid .support {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    gap: 15px;
+}
+
+.choose .creative .grid .support span {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.choose .creative .grid .unl h6 {
+    font-size: 18px;
+    color: rgb(91, 86, 86);
+
+}
+
+.choose .creative .grid .unl p {
+    color: rgb(97, 95, 95);
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.choose .creative .grid .idea {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    gap: 15px;
+}
+
+.choose .creative .grid .idea span {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.choose .creative .grid .crt h6 {
+    font-size: 18px;
+    color: rgb(91, 86, 86);
+
+
+}
+
+.choose .creative .grid .crt p {
+    color: rgb(97, 95, 95);
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.choose .creative .grid .digital {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    gap: 15px;
+}
+
+.choose .creative .grid .digital span {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.choose .creative .grid .srv h6 {
+    font-size: 18px;
+    color: rgb(91, 86, 86);
+
+}
+
+.choose .creative .grid .srv p {
+    color: rgb(97, 95, 95);
+    padding-top: 10px;
+    line-height: 25px;
+} 
+
+/* ============================ number count ====================================== */
+ 
+.bgimg {
+    background: url(https://wp.w3layouts.com/intelligence/wp-content/themes/intelligence/assets/images/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+
+.bgimg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.783);
+    z-index: -1;
+
+}
+
+
+.bgimg .count {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.bgimg .count .employe {
+    display: flex;
+    gap: 10px;
+}
+
+.bgimg .count .employe span {
+    font-size: 35px;
+    color: blueviolet;
+    padding-top: 20px;
+}
+
+.bgimg .count .number h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.bgimg .count .number p {
+    margin-top: -10px;
+    color: rgb(120, 109, 109);
+    font-size: 20px;
+}
+
+/* ===================================== poeple think ========================== */
+
+.designer {
+    padding-top: 100px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.designer .imgover {
+    flex: 1;
+}
+
+.designer .luky {
+    height: 250px;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+
+.designer .luky img {
+    height: 250px;
+    width: 250px;
+    transition: 1s ease-in-out all;
+}
+
+.luky:hover img {
+    transform: scale(1.2);
+}
+
+.designer .design h3 {
+    font-size: 15px;
+    color: rgb(110, 103, 103);
+    font-weight: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.designer .design h1 {
+    font-size: 35px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(71, 67, 67);
+}
+
+
+.designer .design p {
+    padding-top: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    color: grey;
+    font-weight: 300;
+}
+
+
+.designer .design h2 {
+    padding-top: 50px;
+    color: rgb(71, 67, 67);
+}
+
+.designer .design h6 {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(135, 135, 135);
+} 
+
+/* ================================== blog posts ============================= */
+ 
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-content h4 {
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+.card-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+
+/* ============================================== fresh ideas ================================ */
+
+ .f-ideas {
+    background-color: blueviolet;
+    height: 40vh;
+}
+
+.f-ideas .f-flex {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+ } 
+
+
+.f-ideas .y-success em {
+    color: white;
+    font-size: 25px;
+
+}
+
+.f-ideas .y-success h3 {
+    font-size: 40px;
+    color: white;
+}
+
+
+.f-ideas .btn span {
+    color: white;
+    font-size: 30px;
+
+ } 
+
+ .f-ideas .btn a {
+    font-size: 20px;
+    color: white;
+    padding-left: 13px;
+
+}
+
+.f-ideas .btn a:hover {
+    color: black;
+}
+
+.f-ideas .btn button {
+    height: 65px;
+    width: 200px;
+    margin-left: 25px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.187);
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+
+.f-ideas .btn button:hover {
+    background-color: white;
+    color: black;
+} 
+
+/* ========================================= footer ========================================= */
+ .contact {
+    background-color: rgb(12, 6, 19);
+    height: 450px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.contact .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact .address .info {
+    flex: 2;
+}
+
+.contact .address .info h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.contact .address .info p {
+    font-size: 16px;
+    color: #ababab;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.contact .address .quick {
+    flex: 1;
+    padding-bottom: 160px;
+}
+
+.contact .address .quick h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.contact .address .explore {
+    flex: 1;
+    padding-bottom: 160px;
+}
+
+.contact .address .explore h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.contact .address .subscribe {
+    flex: 2;
+    padding-top: 50px;
+}
+
+.contact .address .subscribe h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.contact .address .subscribe button {
+    height: 60px;
+    margin-top: 40px;
+    width: 280px;
+    font-size: 16px;
+    padding-right: 130px;
+    color: #5b5858;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.contact .address .subscribe span {
+    border: 1px solid transparent;
+    height: 60px !important;
+    width: 70px !important;
+    color: white;
+    padding-top: 18px;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px
+}
+
+.contact .address .subscribe p {
+    color: #ababab;
+    padding-top: 60px;
+    /* line-height: 40px; */
+ }
+
+.line::after {
+    content: "";
+    height: 1px;
+    width: 600px;
+    color: #5b5858;
+}   
+
+
+/* ================== random class for menubar ========================= */
+.container .navbar .navigation {
+    background-color: aliceblue;
+    display: none;
+    position: absolute;
+    top: 88px;
+    padding: 10px;
+    width: 84%;
+    z-index: 2;
+}
+
+.container .navbar .navigation ul {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 25px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.container .navbar .navigation ul li {
+    padding: 7px;
+}
+
+.container .navbar .navigation ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: grey;
+}

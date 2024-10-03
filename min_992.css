@@ -1,0 +1,256 @@
+@media (min-width:992px) {
+
+ 
+
+    .container .navbar .nav {
+        display: block;
+    }
+
+    .container .navbar .social .soci .togglebar {
+        display: none;
+    }
+    .container .navbar .logo .flex span {
+        font-size: 30px;
+    }
+    .container .navbar .logo .flex h1 {
+        font-size: 27px;
+    }
+
+    /* ===================== Banner ========================  */
+    .banner {
+        width:100% ; 
+        height: 70vh;
+    }  
+
+    .banner .content {
+        padding: 20px 20px;
+    }
+
+    
+    .banner .content {
+        width: 100%;
+        padding: 100px 200px;   
+    }
+    
+    .banner .content .head {
+        display: flex;
+        gap: 10px;
+    
+    }
+    
+    .banner .content .head h6 {
+        font-size: 20px;
+        padding-top: 45px;
+      
+    }
+      
+    .banner .content .head h1 {
+        font-size: 60px;
+    }
+    
+    .banner .content .set h1 {
+        font-size: 60px;
+        margin-top: -35px;
+        padding-left: 10px;
+    }
+    
+    .banner .content p {
+        padding-top: 10px;
+    }
+    
+    .banner .content .btn {
+        padding-top: 34px;
+    
+    }
+    
+    .banner .content .discover {
+        height: 50px;
+        width: 180px;
+        font-size: 16px;
+    }
+    
+    .banner .content .get {
+        height: 50px;
+        width: 180px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+     /* ======================== about us =====================  */
+    .about-us {
+        padding: 50px;
+    } 
+    
+    .about-us .about-p .about-f {
+        flex-direction: row;
+    
+    }
+    
+    .about-us .about-f .about{
+        width: 100%;
+    }
+    .about-us .about-f .about img {
+        height: 600px;
+        max-width: 600px;
+
+    }
+
+ 
+    .about-us .about-f .aboutwrt h5 {
+        font-size: 18px;
+        padding-top: 30px;
+        color: grey;
+    }
+    
+    .about-us .about-f .aboutwrt h1 {
+        font-size: 30px;
+        color: rgb(61, 60, 60);
+        padding-top: 10px;
+    }
+    
+    .about-us .about-f .aboutwrt p {
+        padding-top: 30px;
+        line-height: 30px;
+        color: grey;
+    }
+    
+    .about-us .about-f .aboutwrt h4 {
+        padding-top: 30px;
+        font-size: 19px;
+        color: rgb(70, 68, 68);
+    }
+    
+    .about-us .about-f .aboutwrt button {
+        height: 50px;
+        width: 180px;
+        border: 1px solid transparent;
+        color: white;
+        background-color: rgb(5, 180, 113);
+        border-radius: 5px;
+        margin-top: 40px;
+    } 
+    
+    /* ======================== success =====================  */
+    .success .success-f {
+        flex-direction: row;
+    }
+
+    /* ===================== choose ====================  */
+    .choose {
+        flex-direction: row;
+    }
+    
+.lap-img img {
+    height: 80%;
+    width: 100%;
+
+}
+
+/* ====================== count =================  */
+.bgimg .count {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.bgimg .count .number h1 {
+    font-size: 37px;
+    color: white;
+}
+.bgimg .count .number p {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+/* ======================= people think ===================== */
+.designer {
+    padding-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.designer .design h1 {
+    font-size: 30px;
+    padding-top: 5px;
+
+}
+.designer .design p {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.designer .design h2 {
+    padding-top: 20px;
+}
+/* ======================== Card =======================  */
+.card-container {
+    flex-direction: row;
+}
+
+.card{
+    width: 100%; 
+
+}
+.card-content h2 {
+    font-size: 22px;
+}
+ 
+/* ===================== fresh ideas ==============  */
+.f-ideas {
+    height: 30vh;
+}
+.f-ideas .f-flex {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-ideas .y-success em {
+    font-size: 22px;
+
+}
+
+.f-ideas .y-success h3 {
+    font-size: 35px;
+}
+
+/* ================== footer contact =============  */
+.contact {
+    height: 100%;
+}
+.contact .address {
+    flex-direction: row;
+}
+.contact .address .subscribe button {
+    height: 60px;
+    width: 200px;
+}
+.contact .address .quick {
+    padding-bottom: 250px;
+}
+
+.contact .address .explore  {
+    padding-bottom: 250px;
+}
+.contact .address .subscribe {
+    padding-bottom: 100px;
+}
+.contact .address .quick h3 ,.contact .address .explore h3,
+.contact .address .subscribe h3{
+    font-size: 18px;
+}
+.contact .address .subscribe h3{
+    text-align: center;
+}
+.contact .address .subscribe span {
+    padding-top: 30px;   
+}
+.contact .address .subscribe p{
+   font-size: 15px;
+   padding-top: 30px;
+   
+
+}
+
+}
+
